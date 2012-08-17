@@ -138,7 +138,7 @@
       </trans-unit>
       <trans-unit id="27">
         <source>mdUserDoctrine_text_ResetMailTitle</source>
-        <target>Usted a solicitado un cambio de contraseña</target>
+        <target>Este e-mail está siendo enviado, ya que solicitó restablecer la contraseña.</target>
         <note>es</note>
         <target/>
       </trans-unit>
@@ -150,13 +150,13 @@
       </trans-unit>
       <trans-unit id="29">
         <source>mdUserDoctrine_text_ResetMailFollowLink</source>
-        <target>Siga el siguiente vinculo para poder ingresar su nueva contraseña</target>
+        <target>Usted puede cambiar su contraseña haciendo clic en el enlace de abajo.</target>
         <note>es</note>
         <target/>
       </trans-unit>
       <trans-unit id="30">
         <source>mdUserDoctrine_text_ResetHere</source>
-        <target>Aqui</target>
+        <target>Click para cambiar mi contraseña</target>
         <note>es</note>
         <target/>
       </trans-unit>
@@ -289,7 +289,11 @@
         <target>Bloqueado</target>
         <note>es</note>
       </trans-unit>
-                      
+      <trans-unit id="57">
+        <source>mdUserDoctrine_Hola %first_name%</source>
+        <target>Hola %first_name%</target>
+        <note>es</note>
+      </trans-unit>        
     </body>
   </file>
 </xliff>
