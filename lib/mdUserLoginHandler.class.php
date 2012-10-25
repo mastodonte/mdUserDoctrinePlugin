@@ -4,6 +4,11 @@ class mdUserLoginHandler {
   
   public static function checkRequieredProfiles($mdPassport, $appName)
   {
-    return true;
+  	if($appName == 'backend'){
+  		if($mdPassport->getMdUser()->isSuperAdmin()){
+  			return true;
+  		}
+  	}
+    return false;
   }
 }
